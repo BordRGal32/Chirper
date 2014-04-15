@@ -22,3 +22,30 @@ nav {
 .pull-right a{
   color: black;
 }
+
+.panel {
+  position: relative;
+  left: 33%;
+  width: 500px;
+  background: rgba(255,0,132,1);
+  background: -moz-linear-gradient(left, rgba(255,0,132,1) 0%, rgba(34,0,255,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,0,132,1)), color-stop(100%, rgba(34,0,255,1)));
+  background: -webkit-linear-gradient(left, rgba(255,0,132,1) 0%, rgba(34,0,255,1) 100%);
+  background: -o-linear-gradient(left, rgba(255,0,132,1) 0%, rgba(34,0,255,1) 100%);
+  background: -ms-linear-gradient(left, rgba(255,0,132,1) 0%, rgba(34,0,255,1) 100%);
+  background: linear-gradient(to right, rgba(255,0,132,1) 0%, rgba(34,0,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0084', endColorstr='#2200ff', GradientType=1 );
+}
+
+.panel a {
+  color: black;
+}
+
+.btn_delete{
+  background: yellow;
+  color: black;
+}
+
+.panel-body {
+  padding: 5px;
+}

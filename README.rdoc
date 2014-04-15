@@ -4,7 +4,7 @@ First time playing with Mailer.
 
 [+]Then, let users post tweets.
 
-If another user's username is mentioned in the tweet, send that user a notification email.
+[+]If another user's username is mentioned in the tweet, send that user a notification email.
 
 Now, let users follow each other. Of course, notify somebody by email if when they are followed. Add pages showing who a user follows, and who follows them.
 Let users upload photos in their tweets.

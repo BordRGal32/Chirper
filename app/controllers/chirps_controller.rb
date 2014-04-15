@@ -8,6 +8,7 @@ class ChirpsController < ApplicationController
     @chirp = Chirp.new(chirp_params)
     if @chirp.save
       current_user.chirps << @chirp
+      @chirp.find_chirper
       flash[:notice] = "Chirp Chirpped"
       redirect_to user_path(current_user)
     else
