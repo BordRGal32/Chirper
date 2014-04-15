@@ -1,7 +1,13 @@
-<h1><%= @user.username %> Profile</h1>
+<h1><%= current_user.username %> Profile</h1>
 
-<p>Your Page Will Get Way Cooler Soon</p>
 
+<%= link_to "CHIRP!!!", new_chirp_path, :class => "btn btn-info" %>
+
+<ul>
+    <% current_user.chirps.each do |chirp| %>
+      <li><%= link_to chirp.message, chirp_path(chirp) %></li>
+    <%end%>
+</ul>
 
 <nav class="navbar navbar-fixed-bottom" roll="navigation">
   <span class="pull-right">

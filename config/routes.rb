@@ -7,4 +7,5 @@ Chirper::Application.routes.draw do
 
  resources :users, :except => [:new]
  resources :sessions, :only => [:create]
+ resources :chirps
 end

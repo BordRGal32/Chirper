@@ -1,8 +1,24 @@
 .logo {
   font-size: 25px;
-  color: #990099;
+  color: black;
+  font-family: 'Plaster', cursive;
 }
 
 .field {
   padding: 10px;
+}
+
+nav {
+  color: rgba(241,111,92,1);
+  background: -moz-linear-gradient(left, rgba(241,111,92,1) 0%, rgba(241,111,92,1) 7%, rgba(255,175,75,1) 21%, rgba(240,235,93,1) 36%, rgba(127,240,93,1) 55%, rgba(93,123,240,1) 81%, rgba(120,10,255,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(241,111,92,1)), color-stop(7%, rgba(241,111,92,1)), color-stop(21%, rgba(255,175,75,1)), color-stop(36%, rgba(240,235,93,1)), color-stop(55%, rgba(127,240,93,1)), color-stop(81%, rgba(93,123,240,1)), color-stop(100%, rgba(120,10,255,1)));
+  background: -webkit-linear-gradient(left, rgba(241,111,92,1) 0%, rgba(241,111,92,1) 7%, rgba(255,175,75,1) 21%, rgba(240,235,93,1) 36%, rgba(127,240,93,1) 55%, rgba(93,123,240,1) 81%, rgba(120,10,255,1) 100%);
+  background: -o-linear-gradient(left, rgba(241,111,92,1) 0%, rgba(241,111,92,1) 7%, rgba(255,175,75,1) 21%, rgba(240,235,93,1) 36%, rgba(127,240,93,1) 55%, rgba(93,123,240,1) 81%, rgba(120,10,255,1) 100%);
+  background: -ms-linear-gradient(left, rgba(241,111,92,1) 0%, rgba(241,111,92,1) 7%, rgba(255,175,75,1) 21%, rgba(240,235,93,1) 36%, rgba(127,240,93,1) 55%, rgba(93,123,240,1) 81%, rgba(120,10,255,1) 100%);
+  background: linear-gradient(to right, rgba(241,111,92,1) 0%, rgba(241,111,92,1) 7%, rgba(255,175,75,1) 21%, rgba(240,235,93,1) 36%, rgba(127,240,93,1) 55%, rgba(93,123,240,1) 81%, rgba(120,10,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f16f5c', endColorstr='#780aff', GradientType=1 );
+}
+
+.pull-right a{
+  color: black;
 }

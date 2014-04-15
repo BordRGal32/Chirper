@@ -1,0 +1,9 @@
+<h1>Chirp Up Close</h1>
+
+<p>chirp chirp chirp</p>
+
+<p><%= @chirp.message %><p>
+
+<nav class="navbar navbar-fixed-bottom pull-right" role="navigation">
+  <%= link_to "Delete Chirp", chirp_path(@chirp), method: "delete" %>
+</nav>

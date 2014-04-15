@@ -1,0 +1,6 @@
+<%= form_for @chirp do |f| %>
+<div class="field">
+  <%= f.text_area :message, placeholder: "chirp", rows: 10, cols: 45 %>
+</div>
+  <%= f.submit  "chirp", :class => "btn btn-primary" %>
+<% end %>
