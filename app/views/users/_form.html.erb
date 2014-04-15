@@ -1,0 +1,17 @@
+<%= render("layouts/errors", :object => @user ) %>
+
+<%= form_for @user do |f| %>
+<div class="field">
+  <%= f.text_field :username, placeholder: "username", class: "form-control"%>
+</div>
+<div class="field">
+  <%= f.text_field :email, placeholder: "email", class: "field form-control" %>
+</div>
+<div class="field">
+  <%= f.password_field :password, placeholder: "password", class: "form-control" %>
+<div>
+<div class="field"></div>
+  <%= f.password_field :password_confirmation, placeholder: "Do it again. Dance monkey, dance.", class: "form-control" %>
+</div><br>
+  <%= f.submit :class => "btn btn-info" %>
+<% end %>

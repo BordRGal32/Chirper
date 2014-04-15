@@ -1,0 +1,8 @@
+<% if object.errors.any? %>
+  <h1>That Attempt Failed. You are Going to Have to Try Again </h1>
+  <ul>
+    <% object.errors.full_messages.each do |message| %>
+      <li><%= message %></li>
+    <% end %>
+  </ul>
+<%end%>
