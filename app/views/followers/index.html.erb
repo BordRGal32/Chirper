@@ -1,0 +1,8 @@
+<h1>Find Chirpers whose Chirp's you Desire</h1>
+
+  <ul>
+  <% @users.each do |user| %>
+    <li><a href="/follow/<%= user.id %>"><%= user.username %></a></li>
+  <% end %>
+</ul>
+
