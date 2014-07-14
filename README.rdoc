@@ -1,12 +1,11 @@
-First time playing with Mailer.
+Chirper
 
-[+] Start off with user signups. When somebody signs up, send them a welcome email.
+Purpose: Completed as part of the Epicodus curriculum. Integrating a Mailer.
 
-[+]Then, let users post tweets.
+* DONE Start off with user signups. When somebody signs up, send them a welcome email.
 
-[+]If another user's username is mentioned in the tweet, send that user a notification email.
+* DONE Then, let users post tweets.
 
-Now, let users follow each other. Of course, notify somebody by email if when they are followed. Add pages showing who a user follows, and who follows them.
-Let users upload photos in their tweets.
-Add pagination, or the splitting up of a big list into several pages, to your index views, using Kaminari.
-Create a preferences page where users can opt out of different notifications.
+* DONE If another user's username is mentioned in the tweet, send that user a notification email.
+
+* DONE Let users follow each other. Of course, notify somebody by email if when they are followed. Add pages showing who a user follows, and who follows them.
